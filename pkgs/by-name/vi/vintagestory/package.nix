@@ -21,7 +21,7 @@
 
 stdenv.mkDerivation rec {
   pname = "vintagestory";
-  version = "1.20.9";
+  version = "1.20.11";
 
   src = fetchurl {
     url = "https://cdn.vintagestory.at/gamefiles/stable/vs_client_linux-x64_${version}.tar.gz";
